@@ -32,25 +32,13 @@ section {
 /* Jumbotron */
 
 .jumbotron {
-  margin: 0;
+  margin-top: 3rem;
+  padding-top: 6rem;
   background-color: #aaa;
-  background-image: url('../images/background.jpg');
-  background-repeat: no-repeat;
+  background-image: url('../images/background01.jpg');
   background-size: cover;
-  height: 30em;
-  color: white;
-}
-
-.jumbotron h1 {
-  margin-right: 5em;
-  margin-top: 50px;
-}
-
-.jumbotron p {
-  font-style: italic;
-  margin-bottom: 0;
-  margin-right: 15em;
-
+  height: 35em;
+  color: lightblue;
 }
 
 .btn {
