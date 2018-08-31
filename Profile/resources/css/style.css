@@ -144,7 +144,14 @@ section {
 /*education section*/
 
 #education {
-  background-color: #474e5d;
+  background-color: #FFDBAA;
+}
+
+#education .header {
+  background-color: #FFFFFE;
+  margin-top: -1.2rem;
+  margin-left: -3.8rem;
+  margin-right: -3.8rem;
 }
 
 #education img{
@@ -159,9 +166,38 @@ section {
 }
 
 /* work Section */
+#work {
+  background-color: #FFC2AA;
+}
+
 #work img {
-  height: 200px;
-  margin: 0 auto;
+  height: 10rem;;
+}
+
+#work .header {
+  background-color: #FFFFFE;
+  margin-top: -1.2rem;
+  margin-left: -3.8rem;
+  margin-right: -3.8rem;
+}
+
+/* Reason Section */
+
+#reason .row {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#reason .row .left-box{
+  height: 50%;
+  background-color: black;
+  justify-content: center;
+}
+
+#reason .row .right-box{
+  background-color: red;
 }
 
 
