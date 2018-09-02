@@ -177,29 +177,36 @@ section {
 #work .header {
   background-color: #FFFFFE;
   margin-top: -1.2rem;
-  margin-left: -3.8rem;
-  margin-right: -3.8rem;
+  margin-left: -3rem;
+  margin-right: -3rem;
 }
 
 /* Reason Section */
+#reason {
+  background-color: white;
+}
 
 #reason .row {
-  background-color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: -3rem;
+  margin-right: -3rem;
+  margin-bottom: -3rem;
 }
 
 #reason .row .left-box{
   height: 50%;
-  background-color: black;
+  background-color: #C7DCFF;
   justify-content: center;
+  margin-left: 0.5rem;
 }
 
-#reason .row .right-box{
-  background-color: red;
+#reason .row .right-box-sm {
+  background-color: #C7DCFF;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
-
 
 /* Portfolio Section */
 
