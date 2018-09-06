@@ -1,12 +1,7 @@
 body, html {
   font-size: 18px;
-  background-color: #eee;
+  margin: 0;
 }
-
-a {
-  color: black;
-}
-
 /* Uncomment this block of code below to see the page layout divided into sections and divs as rectangles */
 
 /*
@@ -15,44 +10,276 @@ div, section {
 }
 */
 
-h1 {
-  padding: 50px;
+section {
+  padding: 0;
+  height: 60rem;
 }
 
-section {
-    padding: 0 3em 3em 3em;
+header {
+  position: fixed;
+  padding-left: 1rem;
+  z-index: 10;
+  width: 100%;
+  height: 7.25%;
+  background-color: rgb(0,0,0,0.7);
+  margin: 0;
 }
+
+.nav {
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav .col-md-2 {
+  height: 100%;
+  padding: 0;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.nav .col-md-2:hover {
+  background-color: lightblue;
+}
+
+a {
+    color: white;
+    width: 4rem;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
 
 #cover {
-  background-image: url('../images/background01.jpg');
+  background: url('../images/background.jpg') no-repeat center center fixed;
   background-size: cover;
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#cover .row {
+  margin: 0;
+}
+
+#cover .content {
   color: lightblue;
+  text-align: center;
+}
+
+#cover .contact {
+  text-align: center;
+  background-color: rgb(0,0,0,0.7);
+}
+
+#cover a {
+  color: lightblue;
+}
+
+#cover a:hover {
+  color: white;
+}
+
+#cover h1 {
+  font-size: 4rem;
+}
+
+#cover p {
+  font-size: 2rem;
+  transition: color 1s ease;
+}
+
+#cover p:hover {
+  transition: color 1s ease;
+  color: #FFDBAA;
 }
 
 /*education section*/
 
 #education {
+  background-color: #FFF5E8;
+  transition: background-color 800ms ease-out;
+}
+
+#education:hover {
   background-color: #FFDBAA;
 }
 
-/* work Section */
-#work {
-  background-color: #FFC2AA;
+#education .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #8180B2;
+  padding-left: 16rem;
+  height: 60rem;
 }
 
-/* Reason Section */
-#reason {
+
+#education .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  transition: color 800ms ease-out;
+  height: 60rem;
+  padding-left: 7rem;
+  padding-right: 3.5rem;
+}
+
+#education .right:hover {
+  color: black;
+}
+
+/* work Section */
+#work .content {
+  background-color: #FFF9E8;
+  transition: background-color 800ms ease-out;
+}
+
+#work .content:hover {
+  background-color: #FFEAAA;
+}
+
+#work .content .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  transition: color 800ms ease-out;
+  height: 40rem;
+  padding-left: 10rem;
+  padding-right: 0;
+}
+
+#work .content .left:hover {
+  color: black;
+}
+
+#work .content .top,
+#work .content .bottom {
+  height: 25%;
+  padding: 0;
+}
+
+#work .content .right {
+  background-color: #718DA5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+#work .reason {
+  height: 20rem;
+  padding: 5rem 10rem;
+  background-color: #D9D9EA;
+  transition: background-color 800ms ease-out;
+  text-align: center;
+}
+
+#work .reason:hover {
+  background-color: #8180B2;
+}
+
+#work .reason .col-md-4 {
+  color: white;
+  transition: color 800ms ease-out;
+}
+
+#work .reason .col-md-4:hover {
+  color: black;
+}
+
+/* Habit Section */
+
+#habit .left,
+#habit .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60rem;
+  line-height: 2.5rem;
+}
+
+#habit .left {
+  align-items: flex-end;
+  padding-bottom: 4.5rem;
+}
+
+/*dream Section*/
+
+#dream .container-fluid {
+  padding: 0;
+}
+
+#dream .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60rem;
+  margin: 0;
+  background-color: #718DA5;
+}
+
+#dream .content .col-md-6 {
+  padding-bottom: 2rem;
+  line-height: 1.5rem;
+}
+
+/*interest Section*/
+
+#interest .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60rem;
+  margin: 0;
+  background-color: #FFDBAA;
+}
+
+#interest .content .top,
+#interest .content .bottom {
+  padding: 0;
+  transition: background-color 1000ms ease-out;
+
+}
+
+#interest .content .top:hover,
+#interest .content .bottom:hover {
   background-color: white;
 }
 
+/*Carousel Section*/
 
-/* Portfolio Section */
-
-#portfolio {
+#carousel {
+  background: url('../images/background2.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
-.row img {
-  margin: 20px 0;
+#my-slider {
+  width: 80%;
+}
+
+#carousel .col-sm-12 {
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#carousel .item img{
+  height: 30rem;
+  margin: 0 auto;
 }
 
 /*Contact Section*/
