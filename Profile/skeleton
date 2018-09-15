@@ -7,13 +7,44 @@ about me
     self-motivative
     patient
 
-
-1  education
-2  work experience
-3  habbit
-4  dream
-5  funny experience
-6  album
+1   fixed header
+      container-fluid
+      fixed container
+      row x 1
+      grid x 6
+2   cover
+      containter-fluid
+      row x 2 (content and contact)
+        grid x 3 in contact row
+3   education
+      container-fluid x 1
+      row x 1
+        grid x 2 (left and right)
+          sub-grid x 3 each grid
+4   work experience
+      container-fluid x 1
+      row x 2(work experience and reason)
+        grid x 2 in work row (left and right)
+          sub-grid x 2 in each grid
+      grid x 3 in reason row (collaspe)
+        title and content each grid
+5   habbit
+      container-fluid x 1
+      row x 1
+        grid x 2 each row (left and right)
+6   dream
+      container-fluid x 1
+      row x 2(top and bottom)
+        grid x 1 each row
+7   interest
+      container-fluid
+        row x 2 (top and bottom)
+          grid x each row
+8   album
+        container-fluid
+          row x 1
+            grid x1
+              carousel (container-fluid)
 
 education
   ive

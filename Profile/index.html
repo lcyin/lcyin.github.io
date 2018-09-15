@@ -8,148 +8,153 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR|Permanent+Marker|Rubik+Mono+One" rel="stylesheet">
     <!-- Custom stylesheet -->
     <link href="resources/css/style.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
-    <header class="container-fluid">
-      <div class="row nav">
-        <div class="col-md-2">
-          <a href="#cover">Home</a>
+  <body data-spy="scroll" data-target="#mainNavbar" data-offset="10">
+    <nav id="mainNavbar" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-        <div class="col-md-2">
-          <a href="#education">Education</a>
-        </div>
-        <div class="col-md-2">
-          <a href="#work">Work Experience</a>
-        </div>
-        <div class="col-md-2">
-          <a href="#habit">Habit</a>
-        </div>
-        <div class="col-md-2">
-          <a href="#dream">Dream</a>
-        </div>
-        <div class="col-md-2">
-          <a href="#interest">Interest</a>
-        </div>
-      </div>
-    </header>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#cover" id="slide" class="slide-section">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#education" id="slide" class="slide-section">Education</a></li>
+            <li><a href="#work" id="slide" class="slide-section">Work Experience</a></li>
+            <li><a href="#habit" id="slide" class="slide-section">Habit</a></li>
+            <li><a href="#dream" id="slide" class="slide-section">Dream</a></li>
+            <li><a href="#interest" id="slide" class="slide-section">Interest</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     <main>
+
 <!-- cover section -->
       <section id="cover">
-        <div class="row">
-          <div class="col-md-4 col-md-offset-1 content">
-            <h1>Kevin Lai</h1>
-            <p>Independent</p>
-            <p>Diciplined</p>
-            <p>Curious</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-md-offset-1 text-center intro">
+              <h1><strong>Kevin Lai</strong></h1>
+              <p>Independent</p>
+              <p>Diciplined</p>
+              <p>Curious</p>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-2 contact">
-            <div class="col-md-4">
-              <a href="#"><i class="fab fa-2x fa-google"></i></a>
-            </div>
-            <div class="col-md-4">
-              <a href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
-            </div>
-            <div class="col-md-4">
-              <a href="#"><i class="fab fa-2x fa-github"></i></a>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-1 text-center contact">
+              <div class="col-md-4 col-xs-2 col-xs-offset-3 col-md-offset-0">
+                <a href="#"><i class="fab fa-2x fa-google"></i></a>
+              </div>
+              <div class="col-md-4 col-xs-2">
+                <a href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
+              </div>
+              <div class="col-md-4 col-xs-2">
+                <a href="#"><i class="fab fa-2x fa-github"></i></a>
+              </div>
             </div>
           </div>
         </div>
       </section>
 <!-- education section -->
       <section id="education">
-        <div class="container-fluid">
-          <div class="row content">
-            <div class="col-md-6 left">
-              <div class="col-md-12 ">
-                <h2>Studying</h2>
-              </div>
-              <div class="col-md-12 ">
-                <h2>2013 - 2014</h2>
-              </div>
-              <div class="col-md-12  ">
-                <h2>2010 - 2013</h2>
-              </div>
+        <div class="container">
+          <div class="row xs-row">
+            <div class="col-md-4 col-md-offset-2 leftGrid ">
+              <h2>Studying</h2>
             </div>
-            <div class="col-md-6 right">
-              <div class="col-md-12 ">
-                <h3>Certificate in Business Information Technology</h3>
-                <p>HKU School of Professional and Continuing Education</p>
-              </div>
-              <div class="col-md-12 ">
-                <h3>Bsc Honours Degree in Events and Leisure Management</h3>
-                <p>Sheffield Hallam University with The School for Higher and Professional Education</p>
-              </div>
-              <div class="col-md-12 ">
-                <h3>Higher Diploma in Leisure Studies</h3>
-                <p>Hong Kong Institute of Vocaitonal Education</p>
-              </div>
+            <div class="col-md-6 rightGrid">
+              <h3>Certificate in Business Information Technology</h3>
+              <p>HKU School of Professional and Continuing Education</p>
+            </div>
+          </div>
+          <div class="row xs-row">
+            <div class="col-md-4 col-md-offset-2 leftGrid ">
+              <h2>2013 - 2014</h2>
+            </div>
+            <div class="col-md-6 rightGrid">
+              <h3>Certificate in Business Information Technology</h3>
+              <p>HKU School of Professional and Continuing Education</p>
+            </div>
+          </div>
+          <div class="row xs-row">
+            <div class="col-md-4 col-md-offset-2 leftGrid">
+              <h2>2010 - 2013</h2>
+            </div>
+            <div class="col-md-6 rightGrid">
+              <h3>Higher Diploma in Leisure Studies</h3>
+              <p>Hong Kong Institute of Vocaitonal Education</p>
+            </div>
             </div>
           </div>
         </div>
       </section>
 <!-- work section-->
       <section id="work">
-        <div class="container-fluid">
-          <div class="row content">
-            <div class="col-md-6 left">
-              <div class="col-md-12 top">
-                <h2>Correctional Service Department</h2>
-              </div>
-              <div class="col-md-12 bottom">
-                <h2>Mongkok District Cutural, Recreational and Sports Association Ltd.</h2>
-              </div>
+        <div class="container">
+          <div class="row xs-row">
+            <div class="col-md-4 col-md-offset-2 leftGrid">
+              <h3>Correctional Service Department</h3>
             </div>
-            <div class="col-md-6 right">
-              <div class="col-md-12 top">
-                <h3>Assistant Officer II</h3>
-                <h4>December 2016 - June 2018</h4>
-                <p>Supervises person in custody, ensure safety in institute and night patrol. This job developed my self-diciplined aility, initiative and improved interpersonal skills.</p>
-              </div>
-              <div class="col-md-12 bottom">
-                <h3>Program Officer</h3>
-                <h4>February 2015 - September 2016</h4>
-                <p>Supervises person in custody, ensure safety in institute and night patrol. This job developed my self-diciplined aility, initiative and improved interpersonal skills.</p>
-              </div>
+            <div class="col-md-4 rightGrid">
+              <h4>Assistant Officer II</h4>
+              <h4>December 2016 - June 2018</h4>
+              <p>Supervises person in custody, ensure safety in institute and night patrol. This job developed my self-diciplined aility, initiative and improved interpersonal skills.</p>
+            </div>
+          </div>
+          <div class="row xs-row">
+            <div class="col-md-4 col-md-offset-2 leftGrid">
+              <h3>Mongkok District Cutural, Recreational and Sports Association Ltd.</h3>
+            </div>
+            <div class="col-md-4 rightGrid">
+              <h4>Program Officer</h4>
+              <h4>February 2015 - September 2016</h4>
+              <p>Supervises person in custody, ensure safety in institute and night patrol. This job developed my self-diciplined aility, initiative and improved interpersonal skills.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 title">
+              <h2>There are fews reason I quit my job...</h2>
             </div>
           </div>
           <div class="row reason">
-            <h2>There are fews reason I quit my job...</h2>
-            <div class="col-md-4">
+            <div class="col-md-3 col-xs-12 subGrid">
               <h3>Family</h3>
-              <p>Irregular working hours let me lesser time spend on family.</p>
+              <p>Irregular working hours let me lesser time spend on family</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3 col-xs-12 subGrid">
               <h3>Health</h3>
               <p>It is also affect my biological clock, my health getting worse</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3 col-xs-12 subGrid">
               <h3>Career</h3>
-              <p>Upskill myself for a better career</p>
+              <p>Upskill myself for a better career which leads to balanced life</p>
             </div>
           </div>
         </div>
       </section>
       <!-- dream -->
       <section id="habit">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-md-6 left">
-              <div class="col-md-6">
+            <div class="col-md-6 leftGrid">
+              <div class="col-md-8 col-md-offset-4 subGrid">
                 <h3>Fitness</h3>
-              </div>
-              <div class="col-md-6">
                 <p>I has started exercising for 3 years. I used to be a fat boy who is lazy that stay at home all the time. My health is getting better and I interested in fitness since I started exercising. Currently, I go to gym room 4 times a week. Also, it is my pleasure to encourage my friends exercising with me.</p>
               </div>
             </div>
-            <div class="col-md-6 right">
-              <div class="col-md-6">
+            <div class="col-md-6 rightGrid">
+              <div class="col-md-8 subGrid">
                 <h3>Learning</h2>
-              </div>
-              <div class="col-md-6">
                 <p>I am lazy and hate study when I am a student. One of the reason is I am not interest in what I study. After I started to work, I realised my knowledge is inadequate. As I growing up, I found that learn something who is interested in is important so I has completed a website development course and a Personal Trainer course. I feel learning is intersting than ever I felt.</p>
               </div>
             </div>
@@ -157,13 +162,15 @@
         </div>
       </section>
       <section id="dream">
-        <div class="container-fluid">
-          <div class="row content">
-            <div class="col-md-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 topGrid">
               <h2>Get a IT-related job</h2>
               <p>IT is the trends of the society, I want to develop my potential in this aspects. Since I never have this kind of knowledge before, I has studyed a fundamental course in HKU Space. Also, I found that Accelerate provides a chance to become sofeware developer for people like me, so I decided to join.</p>
             </div>
-            <div class="col-md-6">
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 bottomGrid ">
               <h2>Own a Gym Room</h2>
               <p>Fitness is the first thing I am able to persist. Actually it is changed my life. Also, I enjoy to share my knowledge about fitness, so I want to further develop in this aspect.</p>
             </div>
@@ -171,22 +178,26 @@
         </div>
       </section>
       <section id="interest">
-        <div class="row content">
-          <div class="col-md-3 col-md-offset-3 top">
+        <div class="container">
+          <div class="row">
+          <div class="col-md-4 col-md-offset-2 leftGrid">
             <h2>A diving experience in Taiwan</h2>
             <p>In the past April, I went to Taiwan to diving. The natural views are impressive and I feel peaceful and relax. Also, I saw a giant turtle which bigger than me is memorable. I always suggest my friends travel to there.</p>
           </div>
-          <div class="col-md-3 col-md-offset-6 bottom">
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-6 rightGrid">
             <h2>A round trip in Taiwan</h2>
             <p>In 2015, I had a round trip in Taiwan by bicycle alone. It is differcult that required a well physical endurance. I had ridden 8 hours per day for 20 days. It is the hardest thing I done in my life.</p>
           </div>
         </div>
+      </div>
       </section>
     <!-- Gallery:  -->
       <section id="carousel">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12">
+            <div class="col-md-10 col-md-offset-1">
               <div id="my-slider" class="carousel slide" data-ride="carousel">
                 <!-- indicators dot nav -->
                 <ol class="carousel-indicators">
@@ -206,61 +217,61 @@
                   <div class="item active">
                     <img src="resources/images/personal.jpg" alt="18 years old">
                     <div class="carousel-caption">
-                      <h1>18 years old</h1>
+                      <h2>18 years old</h2>
                     </div>
                   </div>
                   <div class="item">
                     <img src="resources/images/su1.jpg" alt="supresident">
                     <div class="carousel-caption">
-                      <h1>President of Student Union</h1>
+                      <h2>President of Student Union</h2>
                     </div>
                   </div>
                   <div class="item">
                     <img src="resources/images/su2.jpg" alt="ceremony">
                     <div class="carousel-caption">
-                      <h1>Inauguration Ceremony</h1>
+                      <h2>Inauguration Ceremony</h2>
                     </div>
                   </div>
                   <div class="item">
                     <img src="resources/images/fyp1.jpg" alt="fyp">
                     <div class="carousel-caption">
-                      <h1>Final Year Project</h1>
+                      <h2>Final Year Project</h2>
                     </div>
                   </div>
                   <div class="item">
                     <img src="resources/images/fyp3.jpg" alt="fyp">
                     <div class="carousel-caption">
-                      <h1>Final Year Project</h1>
+                      <h2>Final Year Project</h2>
                     </div>
                   </div>
                   <div class="item">
                     <img src="resources/images/ytmft1.jpg" alt="ytmft">
                     <div class="carousel-caption">
-                      <h1>YTM Football Team</h1>
+                      <h2>YTM Football Team</h2>
                     </div>
                   </div>
                   <div class="item">
                     <img src="resources/images/csd1.jpg" alt="pop">
                     <div class="carousel-caption">
-                      <h1>CSD Passing Out Parade</h1>
+                      <h2>CSD Passing Out Parade</h2>
                     </div>
                   </div>
                   <div class="item">
                     <img src="resources/images/csd2.jpg" alt="pop">
                     <div class="carousel-caption">
-                      <h1>CSD Passing Out Parade</h1>
+                      <h2>CSD Passing Out Parade</h2>
                     </div>
                   </div>
                   <div class="item">
                     <img src="resources/images/diving1.jpg" alt="diving">
                     <div class="carousel-caption">
-                      <h1>Diving in Taiwan</h1>
+                      <h2>Diving in Taiwan</h2>
                     </div>
                   </div>
                   <div class="item">
                     <img src="resources/images/diving2.jpg" alt="diving">
                     <div class="carousel-caption">
-                      <h1>Diving in Taiwan</h1>
+                      <h2>Diving in Taiwan</h2>
                     </div>
                   </div>
                 </div>
@@ -282,11 +293,8 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
       <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="resources/js/app.js" type="text/javascript">
-
-    </script>
+    <script src="resources/js/custom.js" type="text/javascript"></script>
   </body>
 </html>
