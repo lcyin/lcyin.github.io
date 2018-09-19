@@ -2,10 +2,21 @@ body, html {
   position: relative;
   font-size: 18px;
   margin: 0;
-  font-family: 'Noto Serif KR', sans-serif;}
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: 800;
+}
+
 
 h1 {
   font-size: 4rem;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+p {
+  font-family: 'Noto Serif KR', sans-serif;
 }
 
 /* Uncomment this block of code below to see the page layout divided into sections and divs as rectangles */
@@ -25,6 +36,7 @@ section {
 
 #mainNavbar .slide-section {
   font-family: 'Rubik Mono One', sans-serif;
+  font-size: 0.75rem;
 }
 
 #cover {
@@ -33,7 +45,7 @@ section {
 }
 
 #cover .container{
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
   width: 100%;
   display: flex;
@@ -42,8 +54,8 @@ section {
 }
 
 #cover h1 {
-  color: #FFEAAA
-;
+  color: #FFEAAA;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
 #cover p{
@@ -58,9 +70,10 @@ section {
 /*education section*/
 
 #education {
-  background-color: #FFDBAA;
+  background-color: #FFF9E8;
   line-height: 1.5rem;
   color: #718DA5;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
 #education {
@@ -76,7 +89,6 @@ section {
 }
 
 #education h2 {
-  font-family: 'Rubik Mono One', sans-serif;
 }
 
 #education p {
@@ -104,7 +116,7 @@ section {
 
 /* work Section */
 #work {
-  background-color: #FFF9E8;
+  background-color: #FFDBAA;
 }
 
 #work .row {
@@ -112,12 +124,12 @@ section {
   align-items: center;
 }
 
-#work .rightGrid {
-  border-left: 2px #718DA5 solid;
+#work .leftGrid {
+  color: #2A4F6E;
 }
 
-#work .rightGrid h4 {
-  font-family: 'Rubik Mono One', sans-serif;
+#work .rightGrid {
+  border-left: 2px #718DA5 solid;
   color: #595897;
 }
 
@@ -139,7 +151,6 @@ section {
 }
 
 #work .reason h3 {
-  font-family: 'Rubik Mono One', sans-serif;
   color: #2A4F6E;
 }
 
@@ -186,7 +197,7 @@ section {
 
 /* Habit Section */
 #habit {
-  background-color: #FFDBAA;
+  background-color: #FFF9E8;
 }
 
 #habit h3 {
@@ -198,8 +209,8 @@ section {
   color: #718DA5;
 }
 
-#habit .rightGrid {
-  border-left: 2px #8180B2 solid;
+#habit .subGrid {
+  border-bottom: 2px #8180B2 solid;
 }
 
 @media only screen and (max-width: 991px) {
@@ -207,19 +218,22 @@ section {
     border-left: 2px #8180B2 solid;
   }
 
+  #habit .subGrid {
+    border-bottom: none;
+  }
+
   #habit .rightGrid {
-    border-left: none;
     border-right: 2px #8180B2 solid;
   }
 }
 /*dream Section*/
 #dream {
-  background-color: #FFF9E8;
+  background-color: #FFDBAA;
 }
 
 #dream h2 {
-  font-family: 'Rubik Mono One', sans-serif;
   color: #718DA5;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
 #dream p {
@@ -243,25 +257,40 @@ section {
 
 /*interest Section*/
 #interest {
-  background-color: #FFDBAA;
+  background-color: #FFF9E8;
 }
 
 #interest h2 {
-  font-family: 'Permanent Marker', cursive;
   color: #4C6E8B;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
 #interest p {
   color: #8180B2;
 }
 
-#interest .leftGrid {
-  border-left: 2px #8180B2 solid;
+#interest .leftGrid,
+#interest .rightGrid {
+  border-bottom: 2px #8180B2 solid;
 }
 
-#interest .rightGrid {
-  border-right: 2px #8180B2 solid;
+@media only screen and (max-width: 991px) {
+  #interest .leftGrid,
+  #interest .rightGrid {
+    border-bottom: none;
+  }
+
+  #interest .leftGrid {
+    border-left: 2px #8180B2 solid;
+  }
+
+  #interest .rightGrid {
+    border-right: 2px #8180B2 solid;
+  }
+
+
 }
+
 
 /*Carousel Section*/
 
@@ -271,7 +300,6 @@ section {
 }
 
 #carousel h2 {
-  font-family: 'Permanent Marker', cursive;
 }
 
 #carousel .item img{
