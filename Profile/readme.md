@@ -10,7 +10,7 @@
 # Kevin Lai
 #### Self-disciplined
 #### Independent
-#### initiative
+#### Initiative
 laichunyinkevin@gmail.com
 
 [Github](https://github.com/lcyin)
@@ -51,6 +51,7 @@ Supervises person in custody, ensure safety in institute and night patrol. This 
 
 ### Mongkok District Cutural, Recreational and Sports Association Ltd.
 Program Officer
+Feb 2015 - Sep 2016
 Plan and organise football development in YTM district. Leading practical duties with 2 assistant. Budgeting and handle governmental funding documents.
 This job developed my organizing skills, priority management techniques and detailed mind.
 
@@ -87,21 +88,20 @@ I am always love to enjoy natural environment so I went to Taiwan to diving in A
 I was a President of Student Union when I had studying in IVE. It is memorable because I organied many interesting events such as singing contest, orientation camp. Also, I was parcipating school meeting represented students. It is meaningful to me.
 
 ### Final year project
-I was a event management student before. My final year project is organise a event in school with around 50 school mates. We were organised a Japan Traditional Festival event to promote japanese culture. My school have nearly 5000 students so it is a relatively large scale event. The momerable thing
+I was a event management student before. My final year project is organise a event in school with around 50 school mates. We were organised a Japan Traditional Festival event to promote japanese culture. My school have nearly 5000 students so it is a relatively large scale event. The momerable thing is to collaborate with school mates that it is difficult to cope with many opinions.
 
 
 ---
 
 ## Carousel
-![18 Years Old](resources/images/personal.jpg)
-![President of Student Union](resources/images/su1.jpg)
-![Inauguration Ceremony](resources/images/su2.jpg)
-![Final Year Project](resources/images/fyp1.jpg)
-![Final Year Project](resources/images/fyp3.jpg)
-![YTM Football Team](resources/images/ytmft1.jpg)
-![CSD Passing Out Parade](resources/images/csd1.jpg)
-![CSD Passing Out Parade](resources/images/csd2.jpg)
-![Diving in Taiwan](resources/images/diving1.jpg)
-![Diving in Taiwan](resources/images/diving2.jpg)
-
+![18 Years Old]
+![President of Student Union]
+![Inauguration Ceremony]
+![Final Year Project]
+![Final Year Project]
+![YTM Football Team]
+![CSD Passing Out Parade]
+![CSD Passing Out Parade]
+![Diving in Taiwan]
+![Diving in Taiwan]
 ---
