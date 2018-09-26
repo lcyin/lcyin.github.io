@@ -94,12 +94,12 @@ I was a event management student before. My final year project is organise a eve
 ---
 
 ## Carousel
-![President of Student Union]
-![Final Year Project]
-![Final Year Project]
-![YTM Football Team]
-![CSD Passing Out Parade]
-![CSD Passing Out Parade]
-![Diving in Taiwan]
-![Diving in Taiwan]
+1. President of Student Union
+1. Inauguration Ceremony
+1. Final Year Project
+1. Final Year Project
+1. YTM Football Team
+1. CSD Passing Out Parade
+1. Diving in Taiwan
+1. Diving in Taiwan
 ---
