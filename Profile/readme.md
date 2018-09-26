@@ -94,9 +94,7 @@ I was a event management student before. My final year project is organise a eve
 ---
 
 ## Carousel
-![18 Years Old]
 ![President of Student Union]
-![Inauguration Ceremony]
 ![Final Year Project]
 ![Final Year Project]
 ![YTM Football Team]
