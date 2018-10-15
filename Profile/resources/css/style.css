@@ -51,7 +51,7 @@ p {
 }
 
 .bgColor {
-  background: linear-gradient(100deg, #ffeacc, #fff3cc,  #aeadd1, #ffdbaa, #a3b8c9, #ffeaaa);
+  background: linear-gradient(100deg, #ffeacc, #fff3cc,  #aeadd1, #ffdbaa);
   background-size: 1600% 1600%;
   animation: backgroundAnimation 60s ease infinite;
 }
