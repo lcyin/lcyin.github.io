@@ -246,6 +246,7 @@ p {
 }
 
 #carousel img {
+  max-height: 450px;
 }
 #carousel .carousel-item {
   margin: 0 auto; 
