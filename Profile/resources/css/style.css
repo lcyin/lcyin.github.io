@@ -11,6 +11,7 @@ section {
   display: flex;
   align-items: center;
   text-align: center;
+  height: 100vh;
   
 }
 
@@ -141,11 +142,11 @@ p {
   background-color: white;
   display: flex;
   justify-content: space-around;
-  margin-top: -55px; 
+  padding-bottom: 140%;
 }
 
 #cover .icon a{
-  color: white;
+  color: black;
   z-index: 10;
 }
 
@@ -188,8 +189,7 @@ p {
 }
 
 
-@media only screen and (max-width: 991px) {
-}
+
 
 /* work Section */
 
@@ -210,14 +210,12 @@ p {
   align-items: center;
 }
 
-@media only screen and (max-width: 991px) {
-}
+
 /*dream Section*/
 #dream {
 }
 
-@media only screen and (max-width: 991px) {
-}
+
 
 /*interest Section*/
 #interest {
@@ -233,8 +231,6 @@ p {
 }
 
 
-@media only screen and (max-width: 991px) {
-}
 
 
 /*Carousel Section*/
